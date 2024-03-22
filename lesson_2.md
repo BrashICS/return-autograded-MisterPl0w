@@ -63,21 +63,18 @@ function isOdd(num) {
 ## Your Task 
 
 ### Is It The Weekend
-  Create a function called IsItTheWeekend, with the parameter (Day), which returns true if it is Saturday or Sunday, and false for a weekday. 
-
-### Creepy Ghosts
-
-- Two Ghosts Polter and Wolter are complete opposites. They are under watch by guards in a **Super Secure Containment Facility**. They are  told to turn on lockdown mode if both ghosts are laughing, or both are very mad. Although the threat that the two ghosts pose is enormous, the two guards are always slacking off so they request your help to turn on lockdown mode if the conditions are met.
-
-- Create the function ghostWatch(Polter, Wolter).
-
-- The parameters will take in True or False values. True means they are laughing, False means they are mad
+- Create a function called IsItTheWeekend(day), which returns <b>true</b> if it is Saturday or Sunday, and <b>false</b> for a weekday. 
 
 ### Even number divisible by nine
-- Create a function called EvNineIble that returns true if a number is divisble by 9 **And** even. Otherwise it returns false.  
+- Create a function called EvNineIble that returns <b>true</b> if a number is divisble by 9 **and** even. Otherwise it returns <b>false</b>.  
 
 ### Surface Area of a Cylinder (Medium)
 - Create a function which returns the area of a circle.
 - Create a function which returns the area of the cylinder's shaft. 
 - Create a function which returns the surface area of a cylinder.
 
+### Creepy Ghosts
+
+- Two Ghosts Polter and Wolter are complete opposites. The two ghosts are quite dangerous if they both get excited at the same time (observable by laughter or anger), but they will remain neutral most of the time.They are under watch by guards in a **Super Secure Containment Facility**. The guards have orders to lock down the facility if both ghosts are laughing, or both are very mad. Although the threat that the two ghosts pose is enormous, the two guards are always slacking off so they request your help to turn on lockdown mode if the conditions are met. 
+- Create the function ghostWatch(polter, wolter). The function will check if the ghosts are either both laughing or both angry, and return <b>true</b> if either condition is met.
+- Hint: There are three moods the ghosts can have: angry, laughing, and neutral. Try and think of a way you can pass the moods to the function <i>without</i> using strings.
