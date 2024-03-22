@@ -69,13 +69,15 @@ function isOdd(num) {
 
 - Two Ghosts Polter and Wolter are complete opposites. They are under watch by guards in a **Super Secure Containment Facility**. They are  told to turn on lockdown mode if both ghosts are laughing, or both are very mad. Although the threat that the two ghosts pose is enormous, the two guards are always slacking off so they request your help to turn on lockdown mode if the conditions are met.
 
-- Create a function called GhostWatch  with the parameter 
+- Create the function ghostWatch(Polter, Wolter).
+
+- The parameters will take in True or False values. True means they are laughing, False means they are mad
 
 ### Even number divisible by nine
-- Create a function callled EvNineIble, with the parameters (num), that returns true if a number is divisble by 9 **And** even. Otherwise it returns false.  
+- Create a function called EvNineIble that returns true if a number is divisble by 9 **And** even. Otherwise it returns false.  
 
 ### Surface Area of a Cylinder (Medium)
-- Create a function with the perameters (r), which returns the area of a circle.
-- Create a function with the perameters (h,c), which returns the area of the cylinders shaft. 
-- Create a function which returns the surface area of a cylinder, by calling both the previous functions 
+- Create a function which returns the area of a circle.
+- Create a function which returns the area of the cylinder's shaft. 
+- Create a function which returns the surface area of a cylinder.
 
