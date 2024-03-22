@@ -1,7 +1,5 @@
 # Lesson 2: Return Statements
 
-[Previous Lesson](lesson_1.md)
-
 A function can be used to return values. So far, you are used to using <b>console.log</b> to recieve information. While using <b>console.log</b> visually gives you data, you can't do anything with that data. Instead, you can use a <b>return</b> statement to "return" data. Using <b>return</b> allows you to get data back from a function, so you can use it.
 
 When a function reaches a <b>return</b> statement, the function ends. Only one value can be returned, although you can return anything. Commonly, a function can return boolean data (<b>true</b> or <b>false</b>), a <b>number</b>, a <b>string</b>, or any other data type.
@@ -58,12 +56,8 @@ function isOdd(num) {
 }
 ```
 
-If you still want to see what the resu
-,si t
 
 
-
-[Next Lesson](lesson_3.md)
 
 
 ## Your Task 
