@@ -15,7 +15,7 @@ function myFunction() {
 }
 ``` 
 
-When we call the below function, <b>isNumberFour()</b>, it checks to see if the value we gave it is the number 4. If it is, the function returns <b>true</b> and ends. It returns nothing if the value isn't the number 4.
+When we call the below function, <b>isNumberFour()</b>, it checks to see if the value we gave it is the number 4. If it is, the function returns <b>true</b> and ends. It returns false if the value isn't the number 4.
 
 
 ```JS
