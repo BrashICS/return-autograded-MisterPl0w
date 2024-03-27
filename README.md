@@ -75,7 +75,7 @@ function isOdd(num) {
 ### Surface Area of a Cylinder (Medium)
 - Create a function `area_circle(r)` which _returns_ the area of a circle given the radius, `r`.
 - Create a function `area_label(r, h)` which _returns_ the area of the cylinder's label (vertical surface) given height `h` and radius `r`.
-- Create a function `area_cylinder(r, h)` which _returns_ the surface area of a cylinder. _Use the two functions you created above to complete the calculate_.
+- Create a function `area_cylinder(r, h)` which _returns_ the surface area of a cylinder. _Use the two functions you created above to complete the calculation_.
 
 ### Creepy Ghosts
 
