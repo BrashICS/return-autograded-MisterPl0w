@@ -83,5 +83,7 @@ function isOdd(num) {
 - Create the function `ghost_watch(polter, wolter)`. This function will check if the ghosts are either both laughing or both angry, and return <b>`true`</b> if either condition is met.
 - Hint: There are three moods the ghosts can have: "angry", "laughing", and "neutral". Try and think of a way you can pass the moods to the function <i>without</i> using strings.
 
+#### Note:
+You will see a file in the repository called `package.json`. Do **not** delete or change that file.
 
 <br><br><br>
