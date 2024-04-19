@@ -1,0 +1,51 @@
+name: Autograding Tests
+'on':
+- push
+- workflow_dispatch
+- repository_dispatch
+permissions:
+  checks: write
+  actions: read
+  contents: read
+jobs:
+  run-autograding-tests:
+    runs-on: ubuntu-latest
+    if: github.actor != 'github-classroom[bot]'
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+    - name: Weekend
+      id: weekend
+      uses: education/autograding-command-grader@v1
+      with:
+        test-name: Weekend
+        setup-command: npm i -g --silent --no-update-notifier jest-cli
+        command: jest weekend.test.js --noStackTrace --silent
+        timeout: 10
+        max-score: 1
+    - name: Even_Nine
+      id: even_nine
+      uses: education/autograding-command-grader@v1
+      with:
+        test-name: Even_Nine
+        setup-command: ''
+        command: jest even_nine.test.js --noStackTrace --silent
+        timeout: 10
+        max-score: 1
+    - name: Area Cylinder
+      id: area-cylinder
+      uses: education/autograding-command-grader@v1
+      with:
+        test-name: Area Cylinder
+        setup-command: ''
+        command: jest area_cylinder.test.js --noStackTrace --silent
+        timeout: 10
+        max-score: 1
+    - name: Autograding Reporter
+      uses: education/autograding-grading-reporter@v1
+      env:
+        WEEKEND_RESULTS: "${{steps.weekend.outputs.result}}"
+        EVEN_NINE_RESULTS: "${{steps.even_nine.outputs.result}}"
+        AREA-CYLINDER_RESULTS: "${{steps.area-cylinder.outputs.result}}"
+      with:
+        runners: weekend,even_nine,area-cylinder
