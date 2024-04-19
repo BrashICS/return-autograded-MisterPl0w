@@ -8,16 +8,6 @@
 
 'use strict'
 
-// Here's an example of a return statement being used
-function current_time() {
-    // Get the current time
-    const now = new Date().toLocaleTimeString();
-    return now;
-}
-
-// We'll only see the return if we print it.
-let time = current_time();
-console.log(time);
 
 // Return whether or not it's the weekend
 function is_it_the_weekend(day) {
@@ -25,7 +15,7 @@ function is_it_the_weekend(day) {
 }
 
 // Is it an even number divisible by 9
-function evNineIble(value) {
+function even_nine(value) {
     
 }
 
