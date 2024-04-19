@@ -6,7 +6,7 @@
 
 'use strict'
 
-/********* THIS FUNCTION SHOULD FAIL A TEST *********/
+/********* THIS FUNCTION SHOULD FAIL A TEST (on purpose) *********/
 function is_it_the_weekend(day) {
     return (day == 7);
 }
