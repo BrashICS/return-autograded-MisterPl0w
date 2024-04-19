@@ -22,7 +22,7 @@ jobs:
         setup-command: npm i -g --silent --no-update-notifier jest-cli
         command: jest weekend.test.js --noStackTrace --silent
         timeout: 10
-        max-score: 1
+        max-score: 5
     - name: Even_Nine
       id: even_nine
       uses: education/autograding-command-grader@v1
@@ -31,7 +31,7 @@ jobs:
         setup-command: ''
         command: jest even_nine.test.js --noStackTrace --silent
         timeout: 10
-        max-score: 1
+        max-score: 5
     - name: Area Cylinder
       id: area-cylinder
       uses: education/autograding-command-grader@v1
@@ -40,7 +40,7 @@ jobs:
         setup-command: ''
         command: jest area_cylinder.test.js --noStackTrace --silent
         timeout: 10
-        max-score: 1
+        max-score: 5
     - name: Autograding Reporter
       uses: education/autograding-grading-reporter@v1
       env:
