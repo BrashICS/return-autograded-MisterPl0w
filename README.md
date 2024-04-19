@@ -70,7 +70,7 @@ function isOdd(num) {
   - `day` is a number from 1 to 7 where 1 is Sunday, 2 is Monday, etc...
 
 ### Even number divisible by nine
-- Create a function called `evNineIble(value)` that returns <b>**`true`**</b> if the `value` is divisble by 9 **_and_** even. Otherwise it returns <b>`false`</b>.  
+- Create a function called `even_nine(value)` that returns <b>**`true`**</b> if the `value` is divisble by 9 **_and_** even. Otherwise it returns <b>`false`</b>.  
 
 ### Surface Area of a Cylinder (Medium)
 - Create a function `area_circle(r)` which _returns_ the area of a circle given the radius, `r`.
