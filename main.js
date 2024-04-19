@@ -12,7 +12,7 @@ function is_it_the_weekend(day) {
 }
 
 // Is it an even number divisible by 9
-function evNineIble(value) {
+function even_nine(value) {
     return (value % 2 == 0 && value % 9 == 0);
 }
 
